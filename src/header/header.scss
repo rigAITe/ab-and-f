@@ -1,0 +1,156 @@
+
+
+*{
+    margin: 0;
+  }
+  
+  @mixin navBarMobile {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .logo{
+    width: 150px;
+    height: 100px;
+    // padding-top: 2rem;
+    &-mobile{
+        display: none;
+    }
+  }
+  
+  .header{
+  
+    &-desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+        height: 100px;
+    }
+    &-link{
+        display: flex;
+        // justify-content: space-evenly;
+        flex-wrap: wrap;
+        & > a{
+            padding-left: 2rem;
+  
+            color: #333333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
+    &-mobile{
+        display: none;
+    }
+    &-social{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    a{
+      color: #fff  !important;
+    }
+
+    .social{
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+  
+    .header{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+  
+        &-link{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width:70%;
+            top: 0;
+            left: -100%;
+            z-index: 100;
+            transition: all 1s ease;
+            min-height: 100vh;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            background:  linear-gradient( to top, rgba(0, 0, 0, 0.337), transparent 800% ),  url('../assets/navbar-bg.jpg')  ;
+            background-size: contain, cover;
+            background-position: bottom;
+            // background-color: ;
+            justify-content: space-evenly;
+  
+            & > *:nth-child(n + 2){
+                border-top: rgb(153, 151, 151) solid .1rem;
+                align-items: center;
+                // padding-top: .4rem;
+            }
+            & .logo-mobile{
+                width: 120px;
+                // height: 120px;
+                // padding-left: 1rem;
+            }
+            & > a{
+                padding-left: 1rem;
+  
+                padding-top: 1.1rem;
+                padding-bottom: 1.1rem;
+            }
+            & div{
+              color:  #fff;
+            }
+            & a.active div{
+              color: #fff;                
+              font-weight: 700;
+              font-size: 1.2rem;
+            }
+            & span{
+               padding-left: 1rem; 
+            }
+        }
+        &-mobile{
+            display: block;
+            align-items: center;
+        }
+        &-link.active{
+            left: 0;
+            transition: all 1s ease;
+            z-index: 100;
+            width: 80%;
+            background-position: left;
+        }
+        &-social{
+            display: block;
+            padding-top: 0 !important;
+            & div{
+                display: flex;
+                & > a{
+                    margin-right: 1rem;
+                }
+            }
+            & p{
+                margin-top: 2rem;
+                font-weight: 600;
+                font-size: 1.1rem;
+            }
+        }
+    }
+  
+    .icon{
+        width: 45px;
+        height: 45px;
+        transition: all 1s ease;
+    }
+  
+    .logo{
+        width: 100px;
+        // padding-top: 1.5rem;
+        &-mobile{
+            display: block;
+            padding-top: 0;
+        }
+    }
+  
+    
+  }
