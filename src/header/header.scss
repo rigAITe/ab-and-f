@@ -32,7 +32,7 @@
         // justify-content: space-evenly;
         flex-wrap: wrap;
         & > a{
-            padding-left: 2rem;
+            // padding-left: 2rem;
   
             color: #333333;
             text-decoration: none;
@@ -45,6 +45,20 @@
     &-social{
         display: none;
     }
+  }
+
+  .contact{
+    background: #3E704D;
+    border-radius: 0px 0px 18px 0px;
+    padding: .5rem 2rem;
+    color: #fff;
+  }
+
+  .home,
+  .housing,
+  .investment,
+  .estate{
+    padding: .5rem 2rem;
   }
   
   @media (max-width: 768px) {
@@ -62,6 +76,7 @@
         justify-content: space-between;
         height: 80px;
         align-items: center;
+        background: none;
   
         &-link{
             display: flex;
@@ -96,17 +111,21 @@
   
                 padding-top: 1.1rem;
                 padding-bottom: 1.1rem;
+                background: none;
             }
             & div{
               color:  #fff;
+              font-size: 1.1rem;
+              background: none;
+              & .contact{
+              color:  #fff;
+
+              }
             }
             & a.active div{
               color: #fff;                
               font-weight: 700;
               font-size: 1.2rem;
-            }
-            & span{
-               padding-left: 1rem; 
             }
         }
         &-mobile{
@@ -123,10 +142,14 @@
         &-social{
             display: block;
             padding-top: 0 !important;
+            background: none;
             & div{
                 display: flex;
+
                 & > a{
                     margin-right: 1rem;
+                    background: none;
+
                 }
             }
             & p{
@@ -146,11 +169,47 @@
     .logo{
         width: 100px;
         // padding-top: 1.5rem;
+        background: none;
         &-mobile{
             display: block;
             padding-top: 0;
         }
     }
-  
+
+    .contact{
+        background: none;
+        padding: 0;
+    }
+
+    .home,
+    .housing,
+    .investment,
+    .estate{
+        padding: 0rem 0rem;
+    }
     
+    .home::before{
+        content: url("../assets/homeIcon.svg");
+        margin-right: 1rem;
+    }
+
+    .estate::before{
+        content: url("../assets/estateIcon.svg");
+        margin-right: 1rem;
+    }
+
+    .investment::before{
+        content: url("../assets/investmentIcon.svg");
+        margin-right: 1rem;
+    }
+    
+    .housing::before{
+        content: url("../assets/housing.svg");
+        margin-right: 1rem;
+    }
+
+    .contact::before{
+        content: url("../assets/contactIcon.svg");
+        margin-right: 1rem;
+    }
   }

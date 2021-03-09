@@ -8,9 +8,6 @@ import { NavLink } from 'react-router-dom'
 import Facebook from '../assets/facebookIcon2.svg'
 import Instagram from '../assets/instagramIcon2.svg'
 import Twitter from '../assets/twitter.svg'
-import { ReactComponent as  Home }  from '../assets/homeIcon.svg'
-import { ReactComponent as Investment }  from '../assets/investmentIcon.svg'
-import { ReactComponent as Estate }  from '../assets/estateIcon.svg'
 
 
 
@@ -39,14 +36,14 @@ function App() {
               <Logo className="logo logo-mobile"/>
             </div>
             <NavLink exact to='/' >
-                <div onClick={closeMobileMenu}>
-                <Home/> <span>Home</span>
+                <div onClick={closeMobileMenu} className="home">
+                Home
               </div>
             </NavLink>
-            <NavLink to='/housing'><div onClick={closeMobileMenu}> <span>Housing</span></div></NavLink>
-            <NavLink to='/estate' ><div onClick={closeMobileMenu}> <Estate/> <span> Estate</span></div></NavLink>
-            <NavLink to='/investment'><div onClick={closeMobileMenu}><Investment/> <span>Investment</span></div></NavLink>
-            <NavLink to='/contact-us'><div onClick={closeMobileMenu}> <span>Contact Us</span></div></NavLink>
+            <NavLink to='/housing'><div onClick={closeMobileMenu} className="housing"> Housing</div></NavLink>
+            <NavLink to='/estate' ><div onClick={closeMobileMenu} className="estate">  Estate</div></NavLink>
+            <NavLink to='/investment'><div onClick={closeMobileMenu} className="investment">Investment</div></NavLink>
+            <NavLink to='/contact-us'><div onClick={closeMobileMenu} className="contact"> Contact Us</div></NavLink>
               <div className="header-social " onClick={closeMobileMenu}>
                 {/* <p>Connect with Us</p> */}
                 <div className="social">
