@@ -26,7 +26,7 @@ const Address = () => {
                     <div className="form">
                         <form>
                                 <div>
-                                    <input type="text" placeholder="Your Nme"  name="firstname" required/>
+                                    <input type="text" placeholder="Your Name"  name="firstname" required/>
                                 </div>
                                 <div>
                                     <input type="email" placeholder="Your Email" name="email" required/>

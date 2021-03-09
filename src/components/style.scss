@@ -349,7 +349,7 @@ img{
     & textarea{
       width: 100%;
       background: #F5F5F5;
-      padding: .5rem;
+      padding: .7rem 1.2rem;
       border: none;
       outline: none;
     }
@@ -426,7 +426,7 @@ img{
       padding:  8rem 8rem 5rem 3rem;
     }
     & h1{
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &-button{
       width: 20%;
@@ -438,7 +438,7 @@ img{
   }
 
   h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -446,7 +446,11 @@ img{
 @media  (min-width: 1024px) and (max-width: 1439px){
 
   h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  p{
+    line-height: 2rem;
   }
 
   .mainheader{
@@ -461,18 +465,19 @@ img{
     }
 
     & h1{
-      font-size: 4rem;
+      font-size: 2.5rem;
       padding-top: 2rem;
       padding-bottom: 2rem;
     }
     & p{
-      font-size: 1.25rem;
+      font-size: 1rem;
       padding-right: 2rem;
       padding-bottom: 2rem;
+      line-height: 1.5rem;
     }
     &-button{
       width: 30%;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 
@@ -485,7 +490,7 @@ img{
         width: 50%;
       }
       & p{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
       }
     }
   }
@@ -497,7 +502,7 @@ img{
       width: 50%;
     }
     & p{
-      font-size: 1.25rem;
+      font-size: 1.1rem;
       padding-bottom: 0;
       margin-bottom: 0;
     }
@@ -512,7 +517,7 @@ img{
 
   .core{
     & p{
-      font-size: 1.25rem;
+      font-size: 1.1rem;
       padding-bottom: 0;
       margin-bottom: 0;
     }
@@ -541,7 +546,7 @@ img{
       gap: 5rem;
     }
     & p{
-      font-size: 1.25rem;
+      font-size: 1.1rem;
     }
   }
 
@@ -549,10 +554,10 @@ img{
   .buy-now{
     width: 70%;
     div{
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     & div:nth-child(2){
-      width: 30%;
+      width: 20%;
     }
   }
 
@@ -563,7 +568,7 @@ img{
   .invest-inner{
     display: flex;
     gap: 3rem;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     & >*{
       width: 50%;
     }
@@ -572,6 +577,7 @@ img{
     }
     & .buttons{
       margin-top: 2rem;
+      width: 30%;
     }
   }
 
@@ -588,7 +594,7 @@ img{
       }
     }
     & p{
-      font-size: 1.25rem;
+      font-size: 1.1rem;
     }
   }
 
@@ -619,7 +625,7 @@ img{
     padding: 5rem 4rem;
     & input,
     & textarea{
-      font-size: 1.25rem;
+      font-size: 1.1rem;
     }
     
   }
@@ -647,7 +653,7 @@ img{
     }
     .buttons{
       width: 20%;
-      font-size: 1.25rem;
+      font-size: 1.1rem;
       // margin: auto;
     }
   }
