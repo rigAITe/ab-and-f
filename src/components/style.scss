@@ -440,10 +440,31 @@ img{
   h3{
     font-size: 1rem;
   }
+
+
+  .imageOne{
+    width: 30%;
+  }
+  
+  .imageTwo{
+    width: 30%;
+  }
+  
+  .imageThree{
+    width: 30%;
+  }
+
+  .buttons{
+    width: 20%;
+  }
+
+  .buy-now div:nth-child(2){
+    width: 20%;
+  }
 }
 
 
-@media  (min-width: 1024px) and (max-width: 1439px){
+@media  (min-width: 1024px){
 
   h2{
     font-size: 2rem;
@@ -558,6 +579,7 @@ img{
     }
     & div:nth-child(2){
       width: 20%;
+      font-size: 1.1rem;
     }
   }
 
