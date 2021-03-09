@@ -43,13 +43,13 @@ function App() {
             <NavLink to='/housing'><div onClick={closeMobileMenu} className="housing"> Housing</div></NavLink>
             <NavLink to='/estate' ><div onClick={closeMobileMenu} className="estate">  Estate</div></NavLink>
             <NavLink to='/investment'><div onClick={closeMobileMenu} className="investment">Investment</div></NavLink>
-            <NavLink to='/contact-us'><div onClick={closeMobileMenu} className="contact"> Contact Us</div></NavLink>
+            <NavLink to='/contact'><div onClick={closeMobileMenu} className="contact"> Contact Us</div></NavLink>
               <div className="header-social " onClick={closeMobileMenu}>
                 {/* <p>Connect with Us</p> */}
                 <div className="social">
-                    <div><a target="_" href="https://web.facebook.com/holiday.destination.775/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
-                    <div><a target="_" href="https://www.instagram.com/destinationswithjohn/"><img src={Instagram} alt="Instagram Icon"/></a></div> 
-                    <div><a target="_" href="https://www.instagram.com/destinationswithjohn/"><img src={Twitter} alt="Instagram Icon"/></a></div>
+                    <div><a target="_" href="/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
+                    <div><a target="_" href="/"><img src={Instagram} alt="Instagram Icon"/></a></div> 
+                    <div><a target="_" href="/"><img src={Twitter} alt="Instagram Icon"/></a></div>
                 </div>
             </div>
           </div> 

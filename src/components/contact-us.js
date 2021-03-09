@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../header/header'
 import Construction from '../images/construction.jpg'
 
-const Estate = () => {
+const ContactUs = () => {
 
     return(
         <div>
@@ -14,4 +14,4 @@ const Estate = () => {
     )
 }
 
-export { Estate }
+export { ContactUs }

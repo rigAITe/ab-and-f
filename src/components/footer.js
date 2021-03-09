@@ -17,9 +17,9 @@ const Footer = () => {
                     </div>
                     <div className="footer-inner-x">
                         <div className="social">
-                            <div><a target="_" href="https://web.facebook.com/holiday.destination.775/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
-                            <div><a target="_" href="https://www.instagram.com/destinationswithjohn/"><img src={Instagram} alt="Instagram Icon"/></a></div> 
-                            <div><a target="_" href="https://www.instagram.com/destinationswithjohn/"><img src={Twitter} alt="Instagram Icon"/></a></div>
+                            <div><a target="_" href="/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
+                            <div><a target="_" href="/"><img src={Instagram} alt="Instagram Icon"/></a></div> 
+                            <div><a target="_" href="/"><img src={Twitter} alt="Instagram Icon"/></a></div>
                         </div>
                         <div className="footer-inner-z">
                             <div>

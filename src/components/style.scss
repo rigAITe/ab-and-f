@@ -5,16 +5,12 @@
   margin: 0;
   padding: 0;
   font-family: 'DM Sans';
-  // background: #E5E5E5;
 }
 
-p,
-h2,
-h1,
-span,
-h3{
-  background: none !important;
+.construct{
+  margin-top: 5rem;
 }
+
 
 $primary-color: #3E704D;
 
@@ -25,7 +21,6 @@ $primary-color: #3E704D;
 
 img{
   width: 100%;
-  // background: none;
 }
 
 @mixin containerM {
@@ -38,8 +33,10 @@ img{
   @include containerM();
 }
 
-svg{
-  // background: none;
+
+.head{
+  background: #E5E5E5;
+  margin-bottom: 2rem;
 }
 
 
@@ -126,7 +123,6 @@ svg{
 .vis-mis{
   margin-top: 3rem;
   & h2{
-    // @include h2();
     color: $primary-color;
     &:nth-child(1){
       padding-bottom: 2rem;
@@ -147,7 +143,6 @@ svg{
   color: white;
   padding: 3rem 2rem;
   & .container{
-    // background: none;
     & p:nth-child(1){
       color: #fff
     }
@@ -157,12 +152,8 @@ svg{
     padding-bottom: 1rem;
     color: white;
   }
-  & p {
-    // background: none;
-  }
   &-inner{
     padding-top: 3rem;
-    // background: none;
     & div{
       background: white;
       width: 50%;
@@ -181,15 +172,11 @@ svg{
 
 /*-------Buy----------*/
 
-.buy,
-.buy-inner{
-  // background: none;
-}
 
 .one,
 .two,
 .three{
-  // display: none;
+  display: none;
 }
 
 .buy{
@@ -306,13 +293,10 @@ svg{
 /*-------Address----------*/
 
 .address{
-  & .container{
-    // background: none;
-  }
   margin-top: 5rem;
   background: $primary-color;
   padding-top: 4rem;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   & span{
     display: block;
     color: $primary-color;
@@ -391,11 +375,7 @@ svg{
 
   /*-------Footer----------*/
 
-  .footer-inner{
-    & h2{
-      // background: none;
-    }
-  }
+ 
   .foot{
     padding-top: 3rem;
   }
@@ -411,7 +391,7 @@ svg{
       }
       &-z{
         & div{
-          margin-bottom: 2rem;
+          padding-bottom: 2rem;
           & p:nth-child(1){
             color: white;
           }

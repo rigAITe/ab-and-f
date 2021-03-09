@@ -16,8 +16,10 @@ const Home = () => {
 
     return(
         <div>
-            <div className="container">
-                <Header/>
+            <div className="head">
+                <div className="container head">
+                    <Header/>
+                </div>
             </div>
             <MainHeader/>
             <About/>
