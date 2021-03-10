@@ -4,7 +4,7 @@ const Address = () => {
 
     return(
         <div className="address">
-            <div className="container">
+            <div className="contain">
                 <div className="address-inner">
                     <div>
                         <span>Email</span>

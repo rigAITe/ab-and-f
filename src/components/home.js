@@ -17,7 +17,7 @@ const Home = () => {
     return(
         <div>
             <div className="head">
-                <div className="container head">
+                <div className="contain head">
                     <Header/>
                 </div>
             </div>

@@ -3,6 +3,7 @@ import ScrollToTop from './components/scrollTop'
 import Home from './components/home'
 import { Housing } from './components/housing'
 import { Estate } from './components/estate'
+import { BuyForm } from './components/buyNowForm'
 import { InvestmentMain} from './components/investmentMain'
 import './components/style.scss'
 
@@ -17,6 +18,7 @@ const  App = () => {
         {/* <Header/> */}
         <ScrollToTop />
         <Switch>
+          <Route path='/buy-form'  component={BuyForm} />
           <Route path='/housing'  component={Housing} />
           <Route path='/investment'  component={InvestmentMain} />
           <Route path='/contact'  component={ContactUs} />

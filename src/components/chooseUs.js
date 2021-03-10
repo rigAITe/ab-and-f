@@ -4,7 +4,7 @@ const ChooseUs = () => {
 
     return(
         <div className="choose-us">
-            <div className='container'>
+            <div className='contain'>
                 <h2>Why Choose Us</h2>
                 <div className="choose-us-inner">
                     <div>

@@ -5,7 +5,7 @@ const Investment = () => {
 
     return(
         <div className="invest">
-            <div className='container'>
+            <div className='contain'>
                 <div className="invest-inner">
                     <div>
                         <img src={Invest} alt="Img" />
@@ -16,6 +16,7 @@ const Investment = () => {
                         <p>- Make payment directly into any of our company’s accounts.</p>
                         <p>- Send us a prove of payment for confirmation. </p>
                         <p>- Start countdown to your due date.</p>
+                        {/* <NavLink to="/buy-form"><div>Book Now</div></NavLink> */}
 
                         <div className="buttons">Get Started</div>
                     </div>

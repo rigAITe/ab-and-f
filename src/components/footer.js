@@ -2,18 +2,21 @@ import React from 'react'
 import Facebook from '../assets/facebookIcon2.svg'
 import Instagram from '../assets/instagramIcon2.svg'
 import Twitter from '../assets/twitter.svg'
+import { NavLink } from 'react-router-dom'
+
 
 const Footer = () => {
 
     return (
         <div className="footer">
-            <div className="container">
+            <div className="contain">
                 <div className="foot">
                     <div className="footer-inner">
                         <div><h2>Your Next Comfort <span>Zone</span></h2></div>
                         <div className="buttons">
-                            Book Now
+                            <NavLink to="/buy-form">Book Now</NavLink>
                         </div>
+
                     </div>
                     <div className="footer-inner-x">
                         <div className="social">

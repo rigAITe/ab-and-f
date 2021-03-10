@@ -11,7 +11,7 @@ const Buy = () => {
 
     return(
         <div className="buy">
-            <div className="container">
+            <div className="contain">
                 <div className="buy-inner">
                     <div className="buy-inner-one ">
                         <div className="imageOne">

@@ -4,7 +4,7 @@ import React from 'react'
 const VisMif = () => {
 
     return(
-        <div  className="container">
+        <div  className="contain">
             <div className="vis-mis">
                 <div className="vis-mis-inner">
                     <h2>Mission</h2>

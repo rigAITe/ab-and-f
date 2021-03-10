@@ -8,7 +8,7 @@ const Core = () => {
 
     return(
         <div className="core">
-            <div className="container">
+            <div className="contain">
                 <h2>Core Values</h2>
                 <p>The values underlie our work, how interact with each other, and which strategies we employ to fulfill our mission. The core values are the basic elements of how we go about our work.</p>
                 <div className="core-inner">
