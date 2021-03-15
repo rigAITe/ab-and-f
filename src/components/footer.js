@@ -16,27 +16,26 @@ const Footer = () => {
                         <div className="buttons">
                             <NavLink to="/invest">Book Now</NavLink>
                         </div>
-
                     </div>
                     <div className="footer-inner-x">
                         <div className="social">
-                            <div><a target="_" href="/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
-                            <div><a target="_" href="/"><img src={Instagram} alt="Instagram Icon"/></a></div> 
-                            <div><a target="_" href="/"><img src={Twitter} alt="Instagram Icon"/></a></div>
+                            <div><a target="_" href="https://www.facebook.com/AB-F-Global-103101605187781/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
+                            <div><a target="_" href="https://www.instagram.com/abandf_global"><img src={Instagram} alt="Instagram Icon"/></a></div> 
+                            <div><a target="_" href="https://twitter.com/abandf_global"><img src={Twitter} alt="Instagram Icon"/></a></div>
                         </div>
                         <div className="footer-inner-z">
                             <div>
                                 <p>Projects</p>
-                                <p>GloryVille</p>
-                                <p>Housing</p>
-                                <p>Estate</p>
-                                <p>Investment</p>
+                                <p><NavLink to="/estate">GloryVille</NavLink></p>
+                                <p><NavLink to="/housing">Housing</NavLink></p>
+                                <p><NavLink to="/estate">Estate</NavLink></p>
+                                <p><NavLink to="investment">Investment</NavLink></p>
                             </div>
                             <div>
                                 <p>Company</p>
-                                <p>About Us</p>
-                                <p>Be a partner</p>
-                                <p>Contact Us</p>
+                                <p><NavLink to="/">About Us</NavLink></p>
+                                <p><NavLink to="/">Be a partner</NavLink></p>
+                                <p><NavLink to="/contact">Contact Us</NavLink></p>
                             </div>
                         </div>
                     </div>

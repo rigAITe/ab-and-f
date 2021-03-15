@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { UncontrolledCarousel } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slide1 from '../images/islide1.jpg'
@@ -11,22 +10,26 @@ const items = [
   {
     src: Slide1,
     altText: 'Slide 1',
+    captionText: '',
     key: '1'
   },
   {
     src: Slide2,
     altText: 'Slide 2',
+    captionText: '',
     key: '2'
   },
   {
     src: Slide3,
     altText: 'Slide 3',
+    captionText: '',
     key: '3'
   },
   {
     src: Slide4,
     altText: 'Slide 4',
-    key: '3'
+    captionText: '',
+    key: '4'
   }
 ];
 

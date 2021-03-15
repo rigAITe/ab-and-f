@@ -47,9 +47,9 @@ function App() {
               <div className="header-social " onClick={closeMobileMenu}>
                 {/* <p>Connect with Us</p> */}
                 <div className="social">
-                    <div><a target="_" href="/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
-                    <div><a target="_" href="/"><img src={Instagram} alt="Instagram Icon"/></a></div> 
-                    <div><a target="_" href="/"><img src={Twitter} alt="Instagram Icon"/></a></div>
+                  <div><a target="_" href="https://www.facebook.com/AB-F-Global-103101605187781/"><img src={Facebook} alt="Facebook Icon"/></a></div> 
+                  <div><a target="_" href="https://www.instagram.com/abandf_global"><img src={Instagram} alt="Instagram Icon"/></a></div> 
+                  <div><a target="_" href="https://twitter.com/abandf_global"><img src={Twitter} alt="Instagram Icon"/></a></div>
                 </div>
             </div>
           </div> 
