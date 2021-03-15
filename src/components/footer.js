@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="footer-inner">
                         <div><h2>Your Next Comfort <span>Zone</span></h2></div>
                         <div className="buttons">
-                            <NavLink to="/buy-form">Book Now</NavLink>
+                            <NavLink to="/invest">Book Now</NavLink>
                         </div>
 
                     </div>

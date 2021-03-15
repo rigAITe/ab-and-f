@@ -19,11 +19,24 @@ const Housing = () => {
             <div className="contain">
                 <div className="x-one">
                     <div  className="x-y">
-                        <h2>2 Bedrooms Bungalow at N17m </h2>
-                        <p>If you’re looking for a simple and affordable two-bedroom semi detached bungalow, your search ends here! This collection contains floor plans for a variety of 2 bedroom house plans. Pay initial deposit of 3 million.</p>
-                        <p>These two bedroom tiny houses are perfect for newly-weds looking for their first home, or for a family requiring efficient use of space. 2 bedroom house designs can also be converted into rental properties, residential space for retirees, staff quarters, and more. This collection comes with two bedroom house plans in various styles and specifications.</p>
-                        <NavLink to="/buy-form"><div className="buttons">Book Now</div></NavLink>
+                        <p>Our luxurious and affordable houses has been carefully designed to complete your dream.This gorgeous and nearly perfect house will stun you with its modern and dazzling interior finishes. Each piece sitting on a 250sqm has enough space for everyone in the family. It’s hard to list all the indoor and outdoor features of this stunning homes. Schedule a tour today!</p>
+                        <div className="x-y-inner">
+                            <div>
+                                <span>-Book an Inspection</span>
+                                <p>We are always ready and delighted to show you around some of our properties.This enables you to compare various features so as to make a decision that suits your taste.</p>
+                            </div>
+                            
+                            <div>
+                                <span>-Fill and submit your subscription form.</span>
+                                <p>We advice you take your time to properly do this, as we would like to have even to the slightest information correctly.</p>            
+                            </div>
 
+                            <div>
+                                <span>-Payment Preparations</span>
+                                <p>We are happy your loved what you see, and you want it as your next comfort zone. Make payment directly into any of our company’s account and we will begin  the paperworks. </p>
+                            </div>
+                        </div>
+                        <NavLink to="/invest"><div className="buttons">Book Now</div></NavLink>
                     </div>
                     <div  className="x-z">
                         <Carousel/>

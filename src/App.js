@@ -18,7 +18,7 @@ const  App = () => {
         {/* <Header/> */}
         <ScrollToTop />
         <Switch>
-          <Route path='/buy-form'  component={BuyForm} />
+          <Route path='/invest'  component={BuyForm} />
           <Route path='/housing'  component={Housing} />
           <Route path='/investment'  component={InvestmentMain} />
           <Route path='/contact'  component={ContactUs} />

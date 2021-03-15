@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../header/header'
 import { Footer } from './footer'
-import EstateImage from '../images/estateImage.jpg'
 import { NavLink } from 'react-router-dom'
+import { Carousel } from './estateCarousel'
 
 const Estate = () => {
 
@@ -16,14 +16,15 @@ const Estate = () => {
             <div className="contain">
                 <div className="x-one">
                     <div className="x-y">
-                        <h2>GloryVille Estate, Ibeju Lekki</h2>
-                        <p>If you’re looking for a dry land with paved road network, your search ends here! This estate contains perimeter fencing and street lightning..</p>
-                        <p>Features include 5 mins drive from Eleko beach, Lekki Free Trade Zone, Pan Atlantic University, Dangote refinery etc.</p>
-                        <NavLink to="/buy-form"><div className="buttons">Book Now</div></NavLink>
+                        <h2>Estates</h2>
+                        <p>Our delight is in delivering top notch houses to our clients. In a bid to reduce housing deficit in Nigeria, we put in a lot of effort into providing affordable luxurious modern houses.</p>
+                        <p>Our estates are in close proximity to some of the city’s most popular landmarks with apartments ranging from 2 bedrooms to 4bedrooms that comes in bungalows and duplexes.</p>
+                        <p>With basic infrastructures like security gatehouse, estate drainage, paved road, CCTV, you’ll be living the life of your dreams!</p>
+                        <NavLink to="/invest"><div className="buttons">Book Now</div></NavLink>
 
                     </div>
                     <div className="x-z">
-                        <img src={EstateImage } alt="Img" />
+                        <Carousel/>
                     </div>
                 </div>
             </div>

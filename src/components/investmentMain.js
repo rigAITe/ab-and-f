@@ -17,11 +17,14 @@ const InvestmentMain = () => {
             <div className="contain">
                 <div className="x-one">
                     <div className="x-y">
-                        <h2>Global Silver Investment</h2>
+                        <h2>Investments</h2>
                         <p>People are usually looking for the real estates which are well managed and sounds appealing to them.  Investing in real estate is a long term approach and yields high profit in future at a low-risk level. </p>
-                        <p>Invest in this plan of ours for 3 months with a minimum investment of 200k and get 12% ROI.</p>
-
-                        <NavLink to="/buy-form"><div className="buttons">Book Now</div></NavLink>
+                        <h2 className="h2">How to Invest</h2>
+                        <p>-Fill and submit our investment form alongside a valid ID card.</p>
+                        <p>-Make payment directly into any of our company’s accounts.</p>
+                        <p>-Send us a prove of payment for confirmation.</p>
+                        <p>-Start countdown to your due date.</p>
+                        <NavLink to="/invest"><div className="buttons">Invest Now</div></NavLink>
 
                     </div>
                     <div  className="x-z">

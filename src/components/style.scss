@@ -76,10 +76,11 @@ a{
     }
   }
   & div:nth-child(2){
-    background: url('../images/whitebg.svg');
-    background-size: contain, cover ;
+    // background: url('../images/whitebg.svg');
+    // background-size: contain, cover ;
+    @include containM();
     & img{
-      width: 90%;
+      // width: 90%;
     }
   }
   &-button{
@@ -93,7 +94,7 @@ a{
 }
 
 .buttons{
-  background: $primary-color;
+  background: #FF6600;
     border-radius: 0px 0px 18px 0px;
     padding: .5rem 1rem;
     font-weight: 1rem;
@@ -107,6 +108,10 @@ a{
 
 .about{
   @include containM();
+  padding: 2rem 0;
+  &-bg{
+    background: #F1F1F1;
+  }
   & h2{
     color: $primary-color;
     &:nth-child(1){
@@ -205,9 +210,6 @@ a{
       & img{
         width: 100%;
       }
-      & span{
-        color: $primary-color;
-      }
       & h2{
         padding-bottom: 1rem;
         color: $primary-color;
@@ -282,6 +284,10 @@ a{
   & p{
     padding-bottom: 1rem;
   }
+}
+
+.h2{
+  color: #FF6600;
 }
 
 
@@ -375,7 +381,7 @@ a{
     
     }
     & textarea{
-      height: 100px;
+      height: 180px;
     }
 
     & button{
@@ -452,10 +458,16 @@ a{
     & .buttons{
       margin-top: 2rem;
     }
+    & span{
+      color: $primary-color;
+    }
     
   }
   &-y{
     padding-bottom: 2rem;
+    &-inner{
+      padding-top: 2rem;
+    }
   }
   &-z{
     padding-bottom: 2rem;
@@ -583,7 +595,7 @@ a{
     display: flex;
 
     & > *{
-      width: 50%;
+      width: 80%;
       margin-right: 3rem;
     }
     &-inner{
@@ -596,10 +608,9 @@ a{
       padding-bottom: 2rem;
     }
     & p{
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding-right: 2rem;
       padding-bottom: 2rem;
-      line-height: 1.5rem;
     }
     &-button{
       width: 30%;
@@ -718,10 +729,16 @@ a{
       gap: 7rem;
       & > *{
         padding-bottom: 0;
+        text-align: center;
       }
     }
     & p{
       font-size: 1.1rem;
+    }
+    &-last{
+      text-align: center;
+      margin: auto;
+      width: 50%;
     }
   }
 
@@ -807,6 +824,8 @@ a{
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
+
+ 
 
 
   
