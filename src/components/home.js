@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../header/header'
+// import Header from '../header/header'
 import MainHeader from './mainHeader'
 import About from './about'
 import VisMif from './misVis'
@@ -9,6 +9,7 @@ import { ChooseUs } from './chooseUs'
 import { Address } from './address'
 import { Footer } from './footer'
 import Navbar from "../components/nav/nav"
+import { Testimonial } from './testimonial'
 
 const Home = (props) => {
 
@@ -31,6 +32,7 @@ const Home = (props) => {
             </div> */}
                 {/* <Investment/> */}
                 <ChooseUs />
+                <Testimonial/>
                 <Address />
                 <Footer />
             </div>
