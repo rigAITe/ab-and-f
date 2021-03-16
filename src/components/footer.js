@@ -2,8 +2,7 @@ import React from 'react'
 import Facebook from '../assets/facebookIcon2.svg'
 import Instagram from '../assets/instagramIcon2.svg'
 import Twitter from '../assets/twitter.svg'
-import { NavLink } from 'react-router-dom'
-
+import { NavLink, Link } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -28,9 +27,9 @@ const Footer = () => {
                             <div>
                                 <p>Projects</p>
                                 <p>GloryVille</p>
-                                <p>Housing</p>
-                                <p>Estate</p>
-                                <p>Investment</p>
+                                <p><Link to="/housing" >Housing</Link></p>
+                                <p><Link to="/estate" >Estate</Link></p>
+                                <p><Link to="/investment" >Investment</Link></p>
                             </div>
                             <div>
                                 <p>Company</p>

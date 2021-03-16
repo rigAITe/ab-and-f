@@ -26,7 +26,7 @@ const items = [
   {
     src: Slide4,
     altText: 'Slide 4',
-    key: '3'
+    key: '4'
   }
 ];
 

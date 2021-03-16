@@ -1,15 +1,18 @@
 import React from 'react'
 import Invest from '../images/invest.svg'
+import Navbar from "../components/nav/nav"
 
-const Investment = () => {
+const Investment = (props) => {
 
-    return(
-        <div className="invest">
+    return(   <>
+        <Navbar  {...props} />
+
+        <div className="invest x-housing">
             <div className='contain'>
                 <div className="invest-inner">
-                    <div>
+                    {/* <div>
                         <img src={Invest} alt="Img" />
-                    </div>
+                    </div> */}
                     <div>
                         <h2>Investments</h2>
                         <p>- Fill and submit our investment form alongside a valid ID card.</p>
@@ -23,6 +26,7 @@ const Investment = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

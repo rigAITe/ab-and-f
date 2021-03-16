@@ -1,0 +1,87 @@
+@import './mixins.scss';
+
+a {
+  text-decoration: none;
+}
+
+.some-custom-class {
+  .slide-pane__content {
+    padding-top: 3rem;
+    padding-left: 1rem;
+
+    ul {
+      display: flex;
+      padding-left: 0;
+      list-style: none;
+      flex-direction: column;
+
+      li {
+        margin-bottom: 1rem;
+
+        a {
+          color: $fontgrey;
+          font-size: 16px;
+        }
+
+        .careers-btn {
+          border-radius: 40px;
+          background: $purple;
+          color: $white;
+          padding: 0.5rem 2rem 2.2rem;
+          height: 2.5rem;
+
+          &:hover,
+          &:focus,
+          &:active {
+            outline: none !important;
+            border-color: $white !important;
+          }
+        }
+      }
+    }
+  }
+}
+.x-container{
+  padding: 1em 6em;
+  @include mobile() {
+    padding: 2em;
+  }
+}
+
+button.ant-btn{
+  background: #EC0000 !important;
+  color: #fff !important;
+  border: unset !important;
+  border-top-right-radius: 10px !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+  @include mobile() {
+    height: 35px !important;
+    padding: unset !important;
+    font-size: 1.1em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    }
+}
+
+.animate-loader{
+  position: fixed;
+display: flex;
+vertical-align: middle;
+justify-content: center;
+text-align: center;
+align-items: center;
+top:0;
+bottom: 0;
+width: 100%;
+z-index: 1019;
+background: #fff
+}
+@import '../components/nav/nav.scss';
+@import '../components/nav/navmodal.scss';
+@import '../components/nav/fixes.scss';
+
+// @import '../pages/contact/index.scss';
+// @import '../pages/housing/index.scss';
+// @import '../pages/buy/index.scss';
+// @import '../pages/homepage/homepage.scss';

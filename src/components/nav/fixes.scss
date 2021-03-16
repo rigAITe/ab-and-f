@@ -1,0 +1,118 @@
+*{
+    font-family: "Avenir-Medium", sans-serif !important;
+}
+.x-home, .x-housing{
+    p{
+        font-size: 1.2em ;
+  @include mobile() {
+    font-size: 1.2em ;
+}
+    }
+}
+.x-housing{
+    padding-top: 2em;
+    @include mobile(){
+    padding-top: 0em;
+    h2{
+        font-size: 1.6em !important;
+    }
+    }
+       .x-one{
+    @include mobile() {
+            display: flex;
+            flex-direction: column-reverse !important;
+         }
+       }
+}
+.mainheader {
+    @include mobile() {
+        h1{
+            font-size: 2em;
+        }
+       
+      }
+  .x-right {
+    padding: 2em;
+    @include mobile() {
+      & {
+        padding: unset;
+      }
+    }
+  }
+}
+.about {
+    padding: 5em 0 1em !important;
+  @include mobile() {
+    padding: 3em 0em 1em;
+    h2{
+        &:first-of-type{
+            font-size: 1.7em;
+        }
+        padding: 0 1em !important;
+    }
+  }
+  .about-inner {
+   
+    .x-text {
+      padding: 4em 5em;
+    }
+    @include mobile() {
+      .x-text {
+        padding: 1em;
+      }
+      h2 {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+.contain{
+    @include mobile(){
+        padding: 0 1em;
+        h2{
+            padding-bottom: 0 !important;
+            font-size: 1.5em;
+        }
+    }
+}
+.core {
+  .core-inner {
+    p {
+      color: #3e704d !important;
+    }
+  }
+  @include mobile(){
+
+      padding: 3rem 0;
+      .core-inner {
+            div{
+                width: 60%;
+            }
+      }
+  }
+}
+
+.choose-us{
+    @include mobile(){
+    h3{
+        padding-top: 1em;
+        font-size: 1.5em;
+    }
+
+    .choose-us-inner div {
+        padding-bottom: 0rem;
+    }
+    }
+}
+
+.address{
+    .address-inner{
+        padding: 4em;
+}
+    @include mobile(){
+        .address-inner{
+            padding: 2em;
+            border-radius: 0;
+    }
+}
+}

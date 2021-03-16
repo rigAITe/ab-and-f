@@ -3,16 +3,19 @@ import Header from '../header/header'
 import { Footer } from './footer'
 import { NavLink } from 'react-router-dom'
 import { Carousel } from './estateCarousel'
+import Navbar from "../components/nav/nav"
 
-const Estate = () => {
+const Estate = (props) => {
 
-    return(
-        <div className="x">
-            <div className="head">
+    return(    <>
+        <Navbar  {...props} />
+
+        <div className="x x-housing">
+            {/* <div className="head">
                 <div  className="contain">
                     <Header/>
                 </div>
-            </div>
+            </div> */}
             <div className="contain">
                 <div className="x-one">
                     <div className="x-y">
@@ -30,6 +33,7 @@ const Estate = () => {
             </div>
             <Footer/>
         </div>
+        </>
     )
 }
 

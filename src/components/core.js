@@ -18,7 +18,7 @@ const Core = () => {
                     </div>
                     <div>
                         <Accountabitlity/>
-                        <p>Accountabitlity</p>
+                        <p>Accountability</p>
                     </div>
                     <div>
                         <Profess/>
