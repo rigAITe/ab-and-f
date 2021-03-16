@@ -1,5 +1,5 @@
 import React from 'react'
-import  ExploreImage from '../images/explorePix.jpg'
+import { Carousel } from './homeCarousel'
 
 const MainHeader = ({history}) => {
 

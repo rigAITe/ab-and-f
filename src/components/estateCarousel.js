@@ -9,11 +9,13 @@ const items = [
   {
     src: Slide1,
     altText: 'Slide 1',
+    captionText: '',
     key: '1'
   },
   {
     src: Slide2,
     altText: 'Slide 2',
+    captionText: '',
     key: '2'
   }
 ];

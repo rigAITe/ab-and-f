@@ -17,13 +17,19 @@ const BuyForm = () => {
                 <h4>Please  provide us the following:</h4>
                 <form>
                         <div>
-                            <input type="text" placeholder="Full Name"  name="name" required/>
+                            <input type="text" 
+                            placeholder="Full Name"  
+                            name="name" required/>
                         </div>
                         <div>
-                            <input type="email" placeholder="Email" name="email" required/>
+                            <input type="email" 
+                            placeholder="Email" 
+                            name="email" required/>
                         </div>
                         <div>
-                            <input type="number" placeholder="Mobile Number" name="phone" required/>
+                            <input type="number" 
+                            placeholder="Mobile Number" 
+                            name="phone" required/>
                         </div>
                         <div>
                             <select>
@@ -33,7 +39,9 @@ const BuyForm = () => {
                             </select>
                         </div>
                         <div>
-                            <textarea type="text" placeholder="Additional Message" name="message" required/>
+                            <textarea type="text" 
+                            placeholder="Additional Message" 
+                            name="message" required/>
                         </div>
                         <div>
                             <input type="checkbox" required className="check"/> <span>I have read and agree to the website terms and condition *</span>
