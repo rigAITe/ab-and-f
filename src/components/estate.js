@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../header/header'
+// import Header from '../header/header'
 import { Footer } from './footer'
 import { NavLink } from 'react-router-dom'
 import { Carousel } from './estateCarousel'

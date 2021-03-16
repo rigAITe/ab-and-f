@@ -4,8 +4,11 @@
 .x-home, .x-housing{
     p{
         font-size: 1.2em ;
+    line-height: 1.5em;
+
   @include mobile() {
     font-size: 1.2em ;
+    line-height: 1.5em;
 }
     }
 }

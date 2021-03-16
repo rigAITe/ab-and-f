@@ -1,15 +1,15 @@
 import React,{Component} from  "react"
-import { Row, Col} from 'antd'
+// import { Row, Col} from 'antd'
 import {Link} from "react-router-dom"
-import { CloseCircleOutlined, CloseOutlined } from "@ant-design/icons"
+import { CloseCircleOutlined} from "@ant-design/icons"
 
 export default class Navmodal extends Component{
-    constructor(props){
-        super(props)
+    // constructor(props){
+    //     super(props)
   
-    }
+    // }
     render(){
-        var {scroll} = this.props
+        // var {scroll} = this.props
      
         return(
                 <div className="navmodal" data-aos="fade-in">

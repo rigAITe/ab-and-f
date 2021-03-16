@@ -25,7 +25,7 @@ const Footer = () => {
                         <div className="footer-inner-z">
                             <div>
                                 <p>Projects</p>
-                                <p>GloryVille</p>
+                                <p><Link to="/estate" >GloryVille</Link></p>
                                 <p><Link to="/housing" >Housing</Link></p>
                                 <p><Link to="/estate" >Estate</Link></p>
                                 <p><Link to="/investment" >Investment</Link></p>

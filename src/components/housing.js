@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../header/header'
+// import Header from '../header/header'
 import { Footer } from './footer'
 import { Carousel } from './housingCarousel'
 import { NavLink } from 'react-router-dom'
@@ -23,8 +23,9 @@ const Housing = (props) => {
             <div className="contain">
                 <div className="x-one">
                     <div  className="x-y">
-                        <p>Our luxurious and affordable houses has been carefully designed to complete your dream.This gorgeous and nearly perfect house will stun you with its modern and dazzling interior finishes. Each piece sitting on a 250sqm has enough space for everyone in the family. It’s hard to list all the indoor and outdoor features of this stunning homes. Schedule a tour today!</p>
+                        <p>Our luxurious and affordable houses has been carefully designed to complete your dream. This gorgeous and nearly perfect house will stun you with its modern and dazzling interior finishes. Each piece sitting on a 250sqm has enough space for everyone in the family. It’s hard to list all the indoor and outdoor features of this stunning homes. Schedule a tour today!</p>
                         <div className="x-y-inner">
+                            <h2 className="h2">How to Buy</h2>
                             <div>
                                 <span>-Book an Inspection</span>
                                 <p>We are always ready and delighted to show you around some of our properties.This enables you to compare various features so as to make a decision that suits your taste.</p>

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "antd";
-import { ArrowRightOutlined, BarsOutlined } from "@ant-design/icons";
+import { BarsOutlined } from "@ant-design/icons";
 import $ from "jquery";
 import Navmodal from "./navmodal";
-import { ReactComponent as Logo } from '../../assets/Logo.svg'
+// import { ReactComponent as Logo } from '../../assets/Logo.svg'
 export default class Nav extends Component {
   constructor(props) {
     super(props);
@@ -31,7 +31,7 @@ export default class Nav extends Component {
     e.preventDefault()
     var { location, history } = this.props
     if(this.state.toggleModal) this.handleClose()
-    if(location.pathname != '/'){
+    if(location.pathname !== '/'){
         history.push({
             pathname: '/',
             state: { scrollTo: div }})
@@ -56,7 +56,7 @@ export default class Nav extends Component {
           <ul>
             <li>
               <Link to="/">
-                <img src={process.env.PUBLIC_URL + "../Logo.svg"} height="70px"/>
+                <img src={process.env.PUBLIC_URL + "../Logo.svg"} height="70px" alt=""/>
                 {/* <Logo /> */}
               </Link>
             </li>

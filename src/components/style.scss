@@ -43,6 +43,10 @@ a:hover{
   color: #FF6600;
 }
 
+.xy{
+  color: #fff;
+}
+
 @mixin containM {
   width: 90%;
   margin: auto;
@@ -68,6 +72,30 @@ a{
   text-decoration: none;
   &:hover{
     text-decoration: none;
+  }
+}
+
+.testimonial{
+  background: rgba(18, 129, 29, 0.05);
+  padding: 3rem 0;
+  &-inner{
+    text-align: center;
+    width:80%;
+    margin: auto;
+    & img{
+      width: 70%;
+      padding: 2rem 0;
+    }
+    & p{
+      margin-bottom: 0;
+    }
+    & h1{
+      color: $primary-color;
+    }
+    & h4{
+      padding-top: 3rem ;
+      // color: red;
+    }
   }
 }
 
@@ -329,7 +357,7 @@ a{
 /*-------Address----------*/
 
 .address{
-  margin-top: 5rem;
+  // margin-top: 5rem;
   background: $primary-color;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -597,6 +625,17 @@ a{
     margin-bottom: 4rem;
     margin-top: 3rem;
   }
+
+  .testimonial{
+    &-inner{
+      width:80%;
+      margin: auto;
+      & img{
+        width: 20%;
+        padding: 2rem 0;
+      }
+    }
+  }
 }
 
 
@@ -845,7 +884,18 @@ a{
     margin-bottom: 4rem;
   }
 
- 
+  /*-----Testimonial-----------*/
+
+  .testimonial{
+    &-inner{
+      width:80%;
+      margin: auto;
+      & img{
+        width: 15%;
+        padding: 2rem 0;
+      }
+    }
+  }
 
 
   
