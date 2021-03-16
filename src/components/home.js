@@ -8,30 +8,33 @@ import Core from './core'
 import { ChooseUs } from './chooseUs'
 import { Address } from './address'
 import { Footer } from './footer'
+import Navbar from "../components/nav/nav"
 
+const Home = (props) => {
 
-const Home = () => {
-
-    return(
-        <div>
-            <div className="head">
+    return (
+        <>
+            <Navbar  {...props} />
+            <div className="x-home">
+                {/* <div className="head">
                 <div className="contain head">
                     <Header/>
                 </div>
-            </div>
-            <MainHeader/>
-            <About/>
-            <VisMif/>
-            <Core/>
-            {/* <Buy/> */}
-            {/* <div className="buy-nowBg">
+            </div> */}
+                <MainHeader history={props.history}/>
+                <About />
+                <VisMif />
+                <Core />
+                {/* <Buy/> */}
+                {/* <div className="buy-nowBg">
                 <BuyNow/>
             </div> */}
-            {/* <Investment/> */}
-            <ChooseUs/>
-            <Address/>
-            <Footer/>
-        </div>
+                {/* <Investment/> */}
+                <ChooseUs />
+                <Address />
+                <Footer />
+            </div>
+        </>
     )
 }
 

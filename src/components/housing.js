@@ -3,19 +3,23 @@ import Header from '../header/header'
 import { Footer } from './footer'
 import { Carousel } from './housingCarousel'
 import { NavLink } from 'react-router-dom'
+import Navbar from "../components/nav/nav"
 
 
 
 
-const Housing = () => {
+const Housing = (props) => {
 
     return(
-        <div className="x">
-            <div className="head">
+        <>
+            <Navbar  {...props} />
+
+        <div className="x x-housing">
+            {/* <div className="head">
                 <div  className="contain">
                     <Header/>
                 </div>
-            </div>
+            </div> */}
             <div className="contain">
                 <div className="x-one">
                     <div  className="x-y">
@@ -45,6 +49,7 @@ const Housing = () => {
             </div>
             <Footer/>
         </div>
+        </>
     )
 }
 

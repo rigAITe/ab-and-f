@@ -2,8 +2,7 @@ import React from 'react'
 import Facebook from '../assets/facebookIcon2.svg'
 import Instagram from '../assets/instagramIcon2.svg'
 import Twitter from '../assets/twitter.svg'
-import { NavLink } from 'react-router-dom'
-
+import { NavLink, Link } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -26,10 +25,10 @@ const Footer = () => {
                         <div className="footer-inner-z">
                             <div>
                                 <p>Projects</p>
-                                <p><NavLink to="/estate">GloryVille</NavLink></p>
-                                <p><NavLink to="/housing">Housing</NavLink></p>
-                                <p><NavLink to="/estate">Estate</NavLink></p>
-                                <p><NavLink to="investment">Investment</NavLink></p>
+                                <p>GloryVille</p>
+                                <p><Link to="/housing" >Housing</Link></p>
+                                <p><Link to="/estate" >Estate</Link></p>
+                                <p><Link to="/investment" >Investment</Link></p>
                             </div>
                             <div>
                                 <p>Company</p>

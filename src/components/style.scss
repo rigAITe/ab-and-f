@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(../fonts/avenir-regular.ttf) format('truetype');
+}
 
+@font-face {
+  font-family: 'Avenir-Bold';
+  src: local('Avenir-Bold'), url(../fonts/avenir-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: local('Avenir-Medium'), url(../fonts/avenir-medium.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'DM Sans';
+  // font-family: 'DM Sans';
+  font-family: "Avenir-Medium", sans-serif !important;
+
 }
 
 
@@ -70,11 +85,13 @@ a{
     color: white;
     & h1{
       padding-bottom: 1rem;
+      color: #fff;
     }
     & p{
       margin-bottom: 1rem;
     }
   }
+
   & div:nth-child(2){
     // background: url('../images/whitebg.svg');
     // background-size: contain, cover ;
@@ -434,11 +451,18 @@ a{
       }
     }
   }
-
+  .footer-inner-z{
+    a{
+        color: #979797 !important;
+  }
+}
   .social{
     display: flex;
     gap: 3rem;
     margin-bottom: 2rem;
+      div{
+        margin-right: 1em;
+      }
   }
 
 
@@ -594,13 +618,15 @@ a{
       margin-right: 3rem;
     }
     &-inner{
-      padding-left: 4rem;
+      padding: 4rem;
     }
+
 
     & h1{
       font-size: 2.5rem;
       padding-top: 2rem;
       padding-bottom: 2rem;
+
     }
     & p{
       font-size: 1.2rem;
@@ -610,6 +636,7 @@ a{
     &-button{
       width: 30%;
       font-size: 1rem;
+      cursor: pointer;
     }
   }
 

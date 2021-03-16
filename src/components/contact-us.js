@@ -1,18 +1,21 @@
 import React from 'react'
 import Header from '../header/header'
 import { Footer } from './footer'
+import Navbar from "../components/nav/nav"
 
 
-const ContactUs = () => {
-    
+const ContactUs = (props) => {
 
     return(
+        <>
+        <Navbar  {...props} />
+
         <div>
-            <div className="head">
+            {/* <div className="head">
                 <div  className="contain">
                     <Header/>
                 </div>
-            </div>
+            </div> */}
             <div className="construct contain">
                 <div className="form contact-Us">
                     <form>
@@ -39,6 +42,7 @@ const ContactUs = () => {
             </div>
             <Footer/>
         </div>
+        </>
     )
 }
 
