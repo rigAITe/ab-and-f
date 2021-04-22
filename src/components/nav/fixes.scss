@@ -84,17 +84,72 @@
       color: #3e704d !important;
     }
   }
+  .bg-tab{
+    background: url('/images/bgtab.png') no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 1em 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+      color: #3e704d;
+      margin: 0;
+    }
+  }
   @include mobile(){
 
-      padding: 3rem 0;
+      // padding: 3rem 0;
       .core-inner {
             div{
-                width: 60%;
-            }
+                // width: 60%;
+          //  padding: 3.5rem 0em 1rem;
+    }
       }
   }
 }
 
+.x-ourservices{
+  background: url('/images/g.png') no-repeat ;
+  background-size: cover;
+  background-position: top;
+  padding: 7em 2em;
+  text-align: center;
+
+  .x-grid{
+      padding: 5em 0;
+      color: #fff;
+      border-radius: 5px;
+      margin-top: 2em;
+      &.x1{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+        url("/images/grid1.png") no-repeat;
+      }
+      &.x2{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+        url("/images/grid2.png") no-repeat;
+      }
+      &.x3{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+        url("/images/grid3.png") no-repeat;
+      }
+  }
+  @include mobile(){
+
+    .core-inner {
+      padding-top: 1em;
+          div{
+              // width: 60%;
+         padding: 2rem 0em;
+         p{
+           font-size: 1em;
+         }
+          }
+    }
+}
+}
 .choose-us{
     @include mobile(){
     h3{
@@ -117,5 +172,19 @@
             padding: 2em;
             border-radius: 0;
     }
+    h3{
+        font-size: 1.3em;
+    }
 }
+}
+
+.testimonial,.buyNowForm{
+    @include mobile(){
+        h2{
+            font-size: 1.5em;
+        }
+        h4{
+            font-size: 1.2em;
+        }
+    }
 }

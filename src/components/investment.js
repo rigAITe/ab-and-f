@@ -17,7 +17,7 @@ const Investment = (props) => {
                         <h2>Investments</h2>
                         <p>- Fill and submit our investment form alongside a valid ID card.</p>
                         <p>- Make payment directly into any of our company’s accounts.</p>
-                        <p>- Send us a prove of payment for confirmation. </p>
+                        <p>- Send us a proof of payment for confirmation. </p>
                         <p>- Start countdown to your due date.</p>
                         {/* <NavLink to="/buy-form"><div>Book Now</div></NavLink> */}
 

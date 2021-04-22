@@ -13,12 +13,18 @@ const ChooseUs = () => {
                     </div>
                     <div>
                         <h3>Competitive Returns</h3>
-                        <p>Our investment packages has been carefully designed to fit into variuous budgets. These investment packages are very flexible with low minimum investment,secured and guaranteed as we fulfill our promise and ensure customer satisfaction in all</p>
+                        <p>
+Our investment packages has been carefully designed to fit into variuous budgets. These investment packages are very flexible with low minimum investment, secured and guaranteed as we fulfill our promise and ensure customer satisfaction in all.
+
+                        </p>
                     </div>
                 </div>
                 <div className="choose-us-last">
                     <h3>Our Team</h3>
-                    <p> Obviously, this is one of the secret to our success. We have full time proffesional agents working 7days a week to answer your questions and better serve your real estate needs. We are proud of the team we’ve built .We are a foused and dedicated team who committed to excellence for the customer experience. A talented group with a shared vision of constantly delivering great results for our clients. </p>
+                    <p> 
+                    Obviously, this is one of the secret to our success. We have full time professional agents working 7 days a week to answer your questions and better serve your real estate needs. We are proud of the team we’ve built. We are a foused and dedicated team who committed to excellence for the customer experience. A talented group with a shared vision of constantly delivering great results for our clients. 
+
+                    </p>
                 </div>
             </div>
         </div>

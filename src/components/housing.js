@@ -38,7 +38,11 @@ const Housing = (props) => {
 
                             <div>
                                 <span>-Payment Preparations</span>
-                                <p>We are happy your loved what you see, and you want it as your next comfort zone. Make payment directly into any of our company’s account and we will begin  the paperworks. </p>
+                                <p>
+We are happy you loved what you see, and you want it as your next
+comfort zone. Make payment directly into any of our company’s 
+account and we will begin  the paperworks.
+</p>
                             </div>
                         </div>
                         <NavLink to="/invest"><div className="buttons">Book Now</div></NavLink>

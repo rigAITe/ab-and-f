@@ -26,9 +26,9 @@ const InvestmentMain = (props) => {
                         <h2 className="h2">How to Invest</h2>
                         <p>-Fill and submit our investment form alongside a valid ID card.</p>
                         <p>-Make payment directly into any of our company’s accounts.</p>
-                        <p>-Send us a prove of payment for confirmation.</p>
+                        <p>-Send us a proof of payment for confirmation.</p>
                         <p>-Start countdown to your due date.</p>
-                        <NavLink to="/invest"><div className="buttons">Invest Now</div></NavLink>
+                        <NavLink to="/invest?plan=investment" ><div className="buttons">Invest Now</div></NavLink>
 
                     </div>
                     <div  className="x-z">

@@ -5,25 +5,29 @@
   margin: 0;
   list-style-type: none;
   display: flex;
-  padding: 1.5em 4em;
+  padding: 0em 4em;
   align-items: center;
   background: #fff;
   border-bottom: 1px solid #eee;
   margin-bottom: 2em;
+  img{
+      height: 100px;
+      width: unset;
+  }
   &.x-mobile{
     display: none;
    
   }
   @include mobile(){
     img{
-      height: 60px;
-      width: 60px;
+      height: 70px;
+      // width: 100px;
     }
     &.x-mobile{
       display: block;
     }
   
-  padding: 1em 1.3em 1em 0
+  padding: 0em 1.3em 0em 0
   }
 }
 .x-nav ul li:first-of-type{

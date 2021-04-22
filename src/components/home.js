@@ -10,6 +10,7 @@ import { Address } from './address'
 import { Footer } from './footer'
 import Navbar from "../components/nav/nav"
 import { Testimonial } from './testimonial'
+import Ourservices from './ourservices'
 
 const Home = (props) => {
 
@@ -26,6 +27,7 @@ const Home = (props) => {
                 <About />
                 <VisMif />
                 <Core />
+                <Ourservices />
                 {/* <Buy/> */}
                 {/* <div className="buy-nowBg">
                 <BuyNow/>

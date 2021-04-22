@@ -89,7 +89,7 @@ a{
     & p{
       margin-bottom: 0;
     }
-    & h1{
+    & h2{
       color: $primary-color;
     }
     & h4{
@@ -218,11 +218,14 @@ a{
   &-inner{
     padding-top: 3rem;
     & div{
-      background: white;
-      width: 50%;
-      margin: auto;
+      // background: white;
+      background: url('/images/bgtab.png') no-repeat ;
+      background-size: cover;
+      // width: 70%;
+      // padding: 3rem 5em 1em;
+      // margin: auto;
       margin-bottom: 2rem;
-      padding: 1rem 0;
+      // padding: 1rem 0;
       border-radius: .3rem;
     }
     & p{

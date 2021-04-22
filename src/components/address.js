@@ -16,11 +16,13 @@ const Address = () => {
                     <div>
                         <span>Operating Hours</span>
                         <p>Mon-Fri (8am-5:30pm)</p>
-                    </div>
-                    <div>
                         <span>Office Address: </span>
                         <p>The Philippi Center, Oluwalogbon House, Obafemi Awolowo Way, Alausa Ikeja, Lagos State</p>
                     </div>
+                    {/* <div>
+                        <span>Office Address: </span>
+                        <p>The Philippi Center, Oluwalogbon House, Obafemi Awolowo Way, Alausa Ikeja, Lagos State</p>
+                    </div> */}
                 </div>
                 <div className="address-x">
                     <div className="iframe">
